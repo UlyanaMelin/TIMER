@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIMER NEW YEAR</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper_timer">
+            <div class="timer_title">
+                <p class="timer_title_p">До&nbsp;<p class="timer_title_p" id="title_event">Нового года</p><p class="timer_title_p">&nbsp;осталось:</p></p>
+            </div>
+            <div class="countdown_timer">
+                <div class="timer"><h2 id="day">00</h2><p>дней</p></div>
+                <div class="timer"><h2 id="hrs">00</h2><p>часов</p></div>
+                <div class="timer"><h2 id="min">00</h2><p>минут</p></div>
+                <div class="timer"><h2 id="sec">00</h2><p>секунд</p></div>
+            </div> 
+        </div>
+        <div class="wrapper_calendar_and_event">
+            <section class="wrapper_calendar">
+                <p class="calendar_title">введите дату</p>               
+                <input type="date" class="date_user"> 
+                <div class="tooltip">                   
+                    <button  id="button_calendar" class="button_calendar">узнать</button>
+                    <span id="tooltiptext_calendar" class="tooltiptext">выберите дату не позднее текущей</span>                    
+        </div>
+            </section>
+            <section class="wrapper_event">
+                <p class="title_event_user">введите название события</p>
+                <input type="text" class="event_user_text"> 
+                <div class="tooltip">
+                    <button id="button_event" class="button_event">узнать</button>
+                    <span id="tooltiptext_event" class="tooltiptext">введите название события</span>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="js/scriptTimer.js"></script>
+</body>
+</html>
+        
+
+
+
+
+
+
